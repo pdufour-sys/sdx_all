@@ -7,28 +7,44 @@
     <link rel="shortcut icon" href="SynDevRxFavicon.png" type="image/x-icon" />
     <style>
       html, body {
-	  background-color: skyblue;
-	  padding: 20px;
-	  display: flex;
-	  align-items: flex-start;
-	  height: 100vh;
-	  box-sizing: border-box;
-	  overflow-y: auto;
+          background-color: skyblue;
           margin: 0;
-          height: 100%;
+          padding: 20px;
+          min-height: 100vh;
+          box-sizing: border-box;
           font-family: Arial, sans-serif;
-	  font-size: 24px;
+          font-size: 24px;
+      }
+      
+      /* Centers the title and adds space underneath */
+      .centered-text {
+          text-align: center;
+          margin-bottom: 40px; /* Adjust this number for more/less space */
+      }
+
+      /* Centers the list block itself, but keeps the text inside left-aligned */
+      .centered-list {
+          width: max-content;
+          margin: 0 auto;
+          padding-left: 20px; /* Keeps space for the bullets */
+      }
+
+      /* Adds a little breathing room between the list items */
+      .centered-list li {
+          margin-bottom: 15px;
       }
     </style>
   </head>
   <body>
-    Root directory for all SDX github websites<br><br>
-    <ul>
-      <li> <a href="https://pdufour-sys.github.io/sdx_ame_edc/">SDX-0103 (main site)</a>
-      <li> <a href="https://pdufour-sys.github.io/sdx_0103_260522/">SDX-0103 (AZ and ASCO 2026 data, frozen on 5/22/26)</a>
-      <li> <a href="https://pdufour-sys.github.io/0102_home_shared_external/">SDX-0102</a>
-      <li> <a href="https://pdufour-sys.github.io/0101/">SDX-0101</a>
+
+    <p class="centered-text">Root directory for all SDX github websites</p>
+
+    <ul class="centered-list">
+      <li><a href="https://pdufour-sys.github.io/sdx_ame_edc/">SDX-0103 (main site)</a></li>
+      <li><a href="https://pdufour-sys.github.io/sdx_0103_260522/">SDX-0103 (AZ and ASCO 2026 data, frozen on 5/22/26)</a></li>
+      <li><a href="https://pdufour-sys.github.io/0102_home_shared_external/">SDX-0102</a></li>
+      <li><a href="https://pdufour-sys.github.io/0101/">SDX-0101</a></li>
     </ul>
+
   </body>
 </html>
-  
